@@ -78,6 +78,7 @@ For scenario 2 we only load the config once before starting our sim. This is exp
         addr000 = 1;
         addr999 = 5;
     }
+```
 ## Scenario 2 Results
 ### Summary Statistics (ns)
 
