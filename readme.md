@@ -101,4 +101,4 @@ The worst case access was around 100 ns for each variable.
 
 # Conclusion
 Loading and unpacking the config prior to our dummy simulation provided significant speedups.
-When one is using a YAML for config for 
+When one is using a YAML for config for a simulation or for loading data for a real time application I would recommend loading the data from the YAML config prior to entering the real time critical section. 
